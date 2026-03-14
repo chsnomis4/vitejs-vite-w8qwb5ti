@@ -1074,7 +1074,6 @@ export default function HabitTracker() {
             const xEnd  = xEdge - GAP;
             const LBL_W = 120;
             const xStart = xEnd - LBL_W;
-            const rowH  = 25;
             return (
               <g key={rq.key}>
                 <text
